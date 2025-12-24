@@ -54,7 +54,7 @@ const renovationTypes: RenovationTypeData[] = [
     shortDescription: "Довършителни дейности в ново строителство",
     pricePerSqm: 360,
      pricePerEurSqm: 184,
-    pricePerSqm:duration: "4-8 80 седмици",
+duration: "4-8 седмици",
     details: [
       "Шпакловка и боядисване",
       "Полагане на подови настилки",
