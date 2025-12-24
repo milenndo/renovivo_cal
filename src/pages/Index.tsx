@@ -148,7 +148,7 @@ const Index = () => {
     }, 0);
 
     const subtotal = basePrice + servicesPrice;
-    const discount = subtotal > 20000 ? subtotal * 0.05 : 0;
+    const discount = subtotal > 20000 ? subtotal * 0 : 0;
     const total = subtotal - discount;
 
     return {
@@ -465,8 +465,7 @@ const Index = () => {
                           </span>
                         </div>
                         <div className="flex items-center gap-3">
-                          <span className="text-primary font-display text-lg">от {от {type.pricePerSqm} лв/м² / {type.pricePerEurSqm} EUR/м²
-                          <button
+<span className="text-primary font-display text-lg">от {type.pricePerSqm} лв/м² / {type.pricePerEurSqm} EUR/м²</span>                          <button
                             onClick={(e) => {
                               e.stopPropagation();
                               toggleExpanded(type.id);
