@@ -12,6 +12,7 @@ interface RenovationTypeData {
   name: string;
   shortDescription: string;
   pricePerSqm: number;
+   pricePerEurSqm: number;
   duration: string;
   details: string[];
 }
@@ -36,7 +37,8 @@ const renovationTypes: RenovationTypeData[] = [
     id: "cosmetic", 
     name: "Козметичен ремонт", 
     shortDescription: "Бързо освежаване на вашия дом",
-    pricePerSqm: 160,
+    pricePerSqm: 80,
+     pricePerEurSqm: 41,
     duration: "1-2 седмици",
     details: [
       "Боядисване на стени и тавани",
@@ -51,7 +53,8 @@ const renovationTypes: RenovationTypeData[] = [
     name: "Стандартен ремонт", 
     shortDescription: "Довършителни дейности в ново строителство",
     pricePerSqm: 360,
-    duration: "3-6 седмици",
+     pricePerEurSqm: 184,
+    pricePerSqm:duration: "4-8 80 седмици",
     details: [
       "Шпакловка и боядисване",
       "Полагане на подови настилки",
@@ -66,6 +69,7 @@ const renovationTypes: RenovationTypeData[] = [
     name: "Основен ремонт", 
     shortDescription: "Цялостно обновяване на старо жилище",
     pricePerSqm: 800,
+     pricePerEurSqm: 409,
     duration: "2-3 месеца",
     details: [
       "Подмяна на цялата ВиК инсталация",
@@ -82,6 +86,7 @@ const renovationTypes: RenovationTypeData[] = [
     name: "Premium", 
     shortDescription: "Цялостен ремонт с дизайн и авторски надзор",
     pricePerSqm: 1100,
+     pricePerEurSqm: 562,
     duration: "3-5 месеца",
     details: [
       "Включва всичко от основния ремонт",
