@@ -465,7 +465,7 @@ const Index = () => {
                           </span>
                         </div>
                         <div className="flex items-center gap-3">
-                          <span className="text-primary font-display text-lg">от {type.pricePerSqm} лв/м²</span>
+                          <span className="text-primary font-display text-lg">от {от {type.pricePerSqm} лв/м² / {type.pricePerEurSqm} EUR/м²
                           <button
                             onClick={(e) => {
                               e.stopPropagation();
