@@ -36,7 +36,7 @@ const renovationTypes: RenovationTypeData[] = [
     id: "cosmetic", 
     name: "Козметичен ремонт", 
     shortDescription: "Бързо освежаване на вашия дом",
-    pricePerSqm: 80,
+    pricePerSqm: 160,
     duration: "1-2 седмици",
     details: [
       "Боядисване на стени и тавани",
@@ -50,7 +50,7 @@ const renovationTypes: RenovationTypeData[] = [
     id: "standard", 
     name: "Стандартен ремонт", 
     shortDescription: "Довършителни дейности в ново строителство",
-    pricePerSqm: 180,
+    pricePerSqm: 360,
     duration: "3-6 седмици",
     details: [
       "Шпакловка и боядисване",
@@ -65,7 +65,7 @@ const renovationTypes: RenovationTypeData[] = [
     id: "major", 
     name: "Основен ремонт", 
     shortDescription: "Цялостно обновяване на старо жилище",
-    pricePerSqm: 400,
+    pricePerSqm: 800,
     duration: "2-3 месеца",
     details: [
       "Подмяна на цялата ВиК инсталация",
@@ -81,7 +81,7 @@ const renovationTypes: RenovationTypeData[] = [
     id: "premium", 
     name: "Premium", 
     shortDescription: "Цялостен ремонт с дизайн и авторски надзор",
-    pricePerSqm: 550,
+    pricePerSqm: 1100,
     duration: "3-5 месеца",
     details: [
       "Включва всичко от основния ремонт",
@@ -96,11 +96,11 @@ const renovationTypes: RenovationTypeData[] = [
 ];
 
 const additionalServices: ServiceOption[] = [
-  { id: "electrical", name: "Електро инсталация", pricePerSqm: 25, icon: <Zap className="w-5 h-5" /> },
-  { id: "plumbing", name: "ВиК инсталация", pricePerSqm: 30, icon: <Droplets className="w-5 h-5" /> },
-  { id: "flooring", name: "Подови настилки", pricePerSqm: 45, icon: <Home className="w-5 h-5" /> },
-  { id: "painting", name: "Боядисване", pricePerSqm: 15, icon: <Paintbrush className="w-5 h-5" /> },
-  { id: "demolition", name: "Демонтаж", pricePerSqm: 20, icon: <Wrench className="w-5 h-5" /> },
+  { id: "electrical", name: "Електро инсталация", pricePerSqm: 50, icon: <Zap className="w-5 h-5" /> },
+  { id: "plumbing", name: "ВиК инсталация", pricePerSqm: 60, icon: <Droplets className="w-5 h-5" /> },
+  { id: "flooring", name: "Подови настилки", pricePerSqm: 90, icon: <Home className="w-5 h-5" /> },
+  { id: "painting", name: "Боядисване", pricePerSqm: 30, icon: <Paintbrush className="w-5 h-5" /> },
+  { id: "demolition", name: "Демонтаж", pricePerSqm: 40, icon: <Wrench className="w-5 h-5" /> },
 ];
 
 const Index = () => {
